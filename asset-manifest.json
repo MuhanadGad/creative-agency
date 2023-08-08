@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/creative-agency/static/css/main.1e8dd440.css",
+    "main.js": "/creative-agency/static/js/main.72b6ba02.js",
+    "index.html": "/creative-agency/index.html",
+    "main.1e8dd440.css.map": "/creative-agency/static/css/main.1e8dd440.css.map",
+    "main.72b6ba02.js.map": "/creative-agency/static/js/main.72b6ba02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e8dd440.css",
+    "static/js/main.72b6ba02.js"
+  ]
+}
