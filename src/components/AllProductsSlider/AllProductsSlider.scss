@@ -1,0 +1,107 @@
+.seeallprojects {
+    overflow: hidden;
+    position: relative;
+    .parent{
+        position:relative;
+        width:100%;
+        height:150vh;
+        // background-color:lavender;
+        overflow:hidden;
+        transform: rotate(5deg);
+}
+    .block1,.block2{
+        position:absolute;
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        width: fit-content;
+        img {
+            max-width: 500px;
+        }
+}
+    .block1{
+        left: 12vw;
+        @media (min-width: 1500px ) {
+            left: 17vw;
+        }
+        @media (min-width: 1700px ) {
+            left: 20vw;
+        }
+        @media (min-width: 1900px ) {
+            left: 23vw;
+        }
+}
+    .block2{
+        right: 12vw;
+        @media (min-width: 1500px ) {
+            right: 17vw;
+        }
+        @media (min-width: 1700px ) {
+            right: 20vw;
+        }
+        @media (min-width: 1900px ) {
+            right: 23vw;
+        }
+}
+
+    .c1,.c2,.c3,.c4{
+        width: 100%;
+        height: fit-content;
+}
+
+    .block1, .block2 {
+        animation-iteration-count: infinite;
+        animation-duration: 50s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+}
+    .block1 {
+        animation-name: slidedown;
+}
+    .block2 {
+        animation-name: slideup;
+}
+    @keyframes slidedown {
+        0% {
+            transform: translateY(-50%);
+}
+        100% {
+            transform: translateY(0);
+}
+}
+    @keyframes slideup {
+        0% {
+            transform: translateY(0);
+}
+        100% {
+            transform: translateY(-50%);
+}
+}
+    .textoverslider {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            font-size: 7vw;
+            width: 50%;
+            line-height: 7vw;
+            text-align: center;
+            margin-bottom: 5vh;
+            margin-top: 0;
+        }
+        a {
+            display: flex;
+            align-items: center;
+            color: white;
+            column-gap: 10px;
+            font-size: 2.5vw;
+            font-weight: 400;
+        }
+}
+}

@@ -1,0 +1,67 @@
+#footer {
+    background: #222222;
+    font-family: "Poppins";
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#footer .vertical-txt {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#footer .vertical-txt .left {
+    transform: rotate(90deg);
+    height: 50%;
+    width: fit-content;
+}
+
+#footer .vertical-txt span:nth-child(1) {
+    font-weight: 800;
+    font-size: 7.5vw;
+    text-transform: uppercase;
+    line-height: 0.4;
+}
+
+#footer .vertical-txt span:nth-child(2) {
+    font-weight: 500;
+    font-size: 7.5vw;
+    text-transform: uppercase;
+}
+
+#footer .vertical-txt > div {
+    display: flex !important;
+    flex-direction: column !important;
+    color: white;
+    width: 50%;
+}
+
+#footer .vertical-txt span strong {
+    font-weight: 200;
+}
+
+#footer .vertical-txt .right p {
+    margin: 0;
+    font-size: 7.5vw;
+    font-weight: 800;
+    letter-spacing: 10px;
+}
+
+#footer .vertical-txt .right p:nth-child(1) {
+    line-height: 0.5;
+    margin-left: -100px;
+}
+
+#footer .vertical-txt .right .contactbtn {
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+#footer .contactbtn {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: fit-content;
+}

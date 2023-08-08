@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.pagemargins {
+  margin: 0 10%;
+}
+.no-width {
+  overflow: hidden;
+}
+.aboutKinetics {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  // margin: 50px 0;
+  flex-direction: column;
+  .aboutus {
+    display: flex;
+    margin-right: 0 !important;
+    .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      row-gap: 20px;
+      width: 50%;
+      position: relative;
+      h2 {
+        font-size: 4.2vw;
+        color: #222222;
+        margin: 0 0 60px 0;
+        position: relative;
+      }
+      .outlinetext {
+        content: " ";
+        font-size: 10vw;
+        font-weight: 700;
+        color: white;
+        -webkit-text-stroke-width: 0.1vw;
+        -webkit-text-stroke-color: #efefef;
+        position: absolute;
+        z-index: -1;
+        left: -15%;
+        top: -10vh;
+        white-space: nowrap;
+      }
+      p {
+        text-align: justify;
+        color: #707070;
+        font-weight: 400;
+        font-size: 1.3vw;
+        margin: 0;
+      }
+    }
+    .right {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    // margin-top: 100px;
+    height: 100vh;
+  }
+  .designandmarketing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  .greybg {
+    position: absolute;
+    right: 0;
+    top: 40vh;
+    height: 65vh;
+    width: 40vw;
+    background: #f5f5f5;
+    z-index: -1;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    row-gap: 20px;
+    justify-content: center;
+    position: relative;
+    h1 {
+      font-size: 9vw;
+      line-height: 1;
+      color: #222222;
+      margin: 0;
+      span {
+        -webkit-text-stroke: 4px #222;
+        font-size: 11vw;
+        color: white;
+        // -webkit-stroke
+      }
+    }
+    .outlinetext {
+      content: " ";
+      font-size: 10vw;
+      font-weight: 700;
+      color: white;
+      -webkit-text-stroke-width: 0.1vw;
+      -webkit-text-stroke-color: #efefef;
+      position: absolute;
+      z-index: -1;
+      left: -15%;
+      top: -10vh;
+      white-space: nowrap;
+    }
+    p {
+      color: #707070;
+      font-weight: 400;
+      font-size: 1.3vw;
+      margin: 0;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    .text-with-bg {
+      position: relative;
+    }
+    .vertical-txt {
+      display: flex;
+      flex-direction: column-reverse;
+      line-height: 1.1;
+      color: #222222;
+      writing-mode: vertical-lr;
+      height: fit-content;
+      width: 100%;
+    }
+
+    .vertical-txt span:nth-child(1) {
+      font-weight: 800;
+      font-size: 7.5vw;
+      text-transform: uppercase;
+      margin-bottom: -50px;
+    }
+
+    .vertical-txt span:nth-child(2) {
+      font-weight: 500;
+      font-size: 7.5vw;
+      text-transform: uppercase;
+    }
+
+    .vertical-txt > div {
+      display: flex !important;
+      flex-direction: column !important;
+      color: white;
+    }
+
+    .vertical-txt span strong {
+      font-weight: 200;
+    }
+  }
+}
+.ourservices {
+  // margin-top: 100px;
+  display: flex;
+
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  .right {
+    width: 50%;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    width: 50%;
+    h2 {
+      font-size: 4.2vw;
+      color: #222222;
+      margin: 0 0 60px 0;
+      position: relative;
+    }
+    .outlinetext {
+      content: " ";
+      font-size: 10vw;
+      font-weight: 700;
+      color: white;
+      -webkit-text-stroke-width: 0.1vw;
+      -webkit-text-stroke-color: #efefef;
+      position: absolute;
+      z-index: -1;
+      left: -13%;
+      top: -70%;
+      white-space: nowrap;
+      text-transform: uppercase;
+    }
+    p {
+      text-align: justify;
+      color: #707070;
+      font-weight: 400;
+      font-size: 1.3vw;
+      margin: 0;
+    }
+  }
+}
